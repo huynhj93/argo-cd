@@ -6,7 +6,7 @@ google_analytics:
 - UA-105170809-2
 - auto
 markdown_extensions:
-- markdown_include.include
+# - markdown_include.include
 - codehilite
 - admonition
 - toc:
@@ -168,7 +168,7 @@ nav:
 - Blog ⧉: https://blog.argoproj.io/
 repo_url: https://github.com/argoproj/argo-cd
 site_name: Argo CD - Declarative GitOps CD for Kubernetes
-strict: true
+strict: false
 theme:
   custom_dir: overrides
   favicon: assets/favicon.png
